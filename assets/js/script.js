@@ -95,9 +95,10 @@ const proudSlider = new Swiper('.proud-slider', {
 
 // Menu Slider Initialization
 const menuSlider = new Swiper('.menu-swiper', {
-    loop: true,
-    slidesPerView: 1, // Default to 1 slide
+    loop: false,
+    slidesPerView: 1,
     spaceBetween: 20,
+    autoHeight: true,
     navigation: {
         nextEl: '.menu-swiper-next',
         prevEl: '.menu-swiper-prev',
